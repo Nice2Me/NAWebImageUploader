@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182B31C71CA3BF8A00DDE1CB /* NAUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B31C01CA3BF8A00DDE1CB /* NAUtilities.m */; };
+		182B31C81CA3BF8A00DDE1CB /* NAWebImageUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B31C41CA3BF8A00DDE1CB /* NAWebImageUploader.m */; };
+		182B31C91CA3BF8A00DDE1CB /* NAWebImageUploaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B31C61CA3BF8A00DDE1CB /* NAWebImageUploaderOperation.m */; };
 		18EB4FBB1C96C8ED00576393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4FBA1C96C8ED00576393 /* main.m */; };
 		18EB4FBE1C96C8ED00576393 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4FBD1C96C8ED00576393 /* AppDelegate.m */; };
 		18EB4FC11C96C8ED00576393 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4FC01C96C8ED00576393 /* ViewController.m */; };
 		18EB4FC41C96C8ED00576393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB4FC21C96C8ED00576393 /* Main.storyboard */; };
 		18EB4FC61C96C8ED00576393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EB4FC51C96C8ED00576393 /* Assets.xcassets */; };
 		18EB4FC91C96C8ED00576393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EB4FC71C96C8ED00576393 /* LaunchScreen.storyboard */; };
-		18EB4FD51C96CC0700576393 /* NAWebImageUploaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4FD41C96CC0700576393 /* NAWebImageUploaderOperation.m */; };
-		18EB4FD81C96CC3900576393 /* NAWebImageUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB4FD71C96CC3900576393 /* NAWebImageUploader.m */; };
-		18EB50031C97ED2300576393 /* NAUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EB50021C97ED2300576393 /* NAUtilities.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182B31BA1CA3BF8A00DDE1CB /* NAWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAWebImage.h; sourceTree = "<group>"; };
+		182B31BD1CA3BF8A00DDE1CB /* NAWebImageBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAWebImageBlocks.h; sourceTree = "<group>"; };
+		182B31BE1CA3BF8A00DDE1CB /* NAImports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAImports.h; sourceTree = "<group>"; };
+		182B31BF1CA3BF8A00DDE1CB /* NAUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAUtilities.h; sourceTree = "<group>"; };
+		182B31C01CA3BF8A00DDE1CB /* NAUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAUtilities.m; sourceTree = "<group>"; };
+		182B31C21CA3BF8A00DDE1CB /* NAWebImageOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAWebImageOperationDelegate.h; sourceTree = "<group>"; };
+		182B31C31CA3BF8A00DDE1CB /* NAWebImageUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAWebImageUploader.h; sourceTree = "<group>"; };
+		182B31C41CA3BF8A00DDE1CB /* NAWebImageUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAWebImageUploader.m; sourceTree = "<group>"; };
+		182B31C51CA3BF8A00DDE1CB /* NAWebImageUploaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAWebImageUploaderOperation.h; sourceTree = "<group>"; };
+		182B31C61CA3BF8A00DDE1CB /* NAWebImageUploaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAWebImageUploaderOperation.m; sourceTree = "<group>"; };
 		18EB4FB61C96C8ED00576393 /* NAWebImageUploaderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAWebImageUploaderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EB4FBA1C96C8ED00576393 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18EB4FBC1C96C8ED00576393 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,16 +39,6 @@
 		18EB4FC51C96C8ED00576393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EB4FC81C96C8ED00576393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EB4FCA1C96C8ED00576393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18EB4FD11C96CBA900576393 /* NAWebImageOperationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAWebImageOperationDelegate.h; sourceTree = "<group>"; };
-		18EB4FD31C96CC0700576393 /* NAWebImageUploaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAWebImageUploaderOperation.h; sourceTree = "<group>"; };
-		18EB4FD41C96CC0700576393 /* NAWebImageUploaderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAWebImageUploaderOperation.m; sourceTree = "<group>"; };
-		18EB4FD61C96CC3900576393 /* NAWebImageUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAWebImageUploader.h; sourceTree = "<group>"; };
-		18EB4FD71C96CC3900576393 /* NAWebImageUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAWebImageUploader.m; sourceTree = "<group>"; };
-		18EB4FDB1C96D4EF00576393 /* NAWebImageBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAWebImageBlocks.h; sourceTree = "<group>"; };
-		18EB4FFF1C97EC4F00576393 /* NAImports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAImports.h; sourceTree = "<group>"; };
-		18EB50001C97ECEE00576393 /* NAWebImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAWebImage.h; sourceTree = "<group>"; };
-		18EB50011C97ED2300576393 /* NAUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAUtilities.h; sourceTree = "<group>"; };
-		18EB50021C97ED2300576393 /* NAUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAUtilities.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,10 +52,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182B31B91CA3BF8A00DDE1CB /* NAWebImageUploader */ = {
+			isa = PBXGroup;
+			children = (
+				182B31BA1CA3BF8A00DDE1CB /* NAWebImage.h */,
+				182B31BB1CA3BF8A00DDE1CB /* Utilities */,
+				182B31C11CA3BF8A00DDE1CB /* WebImageUploader */,
+			);
+			name = NAWebImageUploader;
+			path = ../NAWebImageUploader;
+			sourceTree = "<group>";
+		};
+		182B31BB1CA3BF8A00DDE1CB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				182B31BC1CA3BF8A00DDE1CB /* Macros */,
+				182B31BE1CA3BF8A00DDE1CB /* NAImports.h */,
+				182B31BF1CA3BF8A00DDE1CB /* NAUtilities.h */,
+				182B31C01CA3BF8A00DDE1CB /* NAUtilities.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		182B31BC1CA3BF8A00DDE1CB /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				182B31BD1CA3BF8A00DDE1CB /* NAWebImageBlocks.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		182B31C11CA3BF8A00DDE1CB /* WebImageUploader */ = {
+			isa = PBXGroup;
+			children = (
+				182B31C21CA3BF8A00DDE1CB /* NAWebImageOperationDelegate.h */,
+				182B31C31CA3BF8A00DDE1CB /* NAWebImageUploader.h */,
+				182B31C41CA3BF8A00DDE1CB /* NAWebImageUploader.m */,
+				182B31C51CA3BF8A00DDE1CB /* NAWebImageUploaderOperation.h */,
+				182B31C61CA3BF8A00DDE1CB /* NAWebImageUploaderOperation.m */,
+			);
+			path = WebImageUploader;
+			sourceTree = "<group>";
+		};
 		18EB4FAD1C96C8ED00576393 = {
 			isa = PBXGroup;
 			children = (
-				18EB4FD01C96C91900576393 /* NAWebImageUploader */,
+				182B31B91CA3BF8A00DDE1CB /* NAWebImageUploader */,
 				18EB4FB81C96C8ED00576393 /* NAWebImageUploaderDemo */,
 				18EB4FB71C96C8ED00576393 /* Products */,
 			);
@@ -91,47 +133,6 @@
 				18EB4FBA1C96C8ED00576393 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		18EB4FD01C96C91900576393 /* NAWebImageUploader */ = {
-			isa = PBXGroup;
-			children = (
-				18EB4FDA1C96D4BD00576393 /* NAMacros */,
-				18EB4FD91C96D4AB00576393 /* NAUtils */,
-				18EB4FD21C96CBDB00576393 /* NAUploader */,
-				18EB50001C97ECEE00576393 /* NAWebImage.h */,
-			);
-			path = NAWebImageUploader;
-			sourceTree = "<group>";
-		};
-		18EB4FD21C96CBDB00576393 /* NAUploader */ = {
-			isa = PBXGroup;
-			children = (
-				18EB4FD11C96CBA900576393 /* NAWebImageOperationDelegate.h */,
-				18EB4FD31C96CC0700576393 /* NAWebImageUploaderOperation.h */,
-				18EB4FD41C96CC0700576393 /* NAWebImageUploaderOperation.m */,
-				18EB4FD61C96CC3900576393 /* NAWebImageUploader.h */,
-				18EB4FD71C96CC3900576393 /* NAWebImageUploader.m */,
-			);
-			name = NAUploader;
-			sourceTree = "<group>";
-		};
-		18EB4FD91C96D4AB00576393 /* NAUtils */ = {
-			isa = PBXGroup;
-			children = (
-				18EB4FFF1C97EC4F00576393 /* NAImports.h */,
-				18EB50011C97ED2300576393 /* NAUtilities.h */,
-				18EB50021C97ED2300576393 /* NAUtilities.m */,
-			);
-			name = NAUtils;
-			sourceTree = "<group>";
-		};
-		18EB4FDA1C96D4BD00576393 /* NAMacros */ = {
-			isa = PBXGroup;
-			children = (
-				18EB4FDB1C96D4EF00576393 /* NAWebImageBlocks.h */,
-			);
-			name = NAMacros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,11 +207,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18EB4FC11C96C8ED00576393 /* ViewController.m in Sources */,
-				18EB4FD51C96CC0700576393 /* NAWebImageUploaderOperation.m in Sources */,
 				18EB4FBE1C96C8ED00576393 /* AppDelegate.m in Sources */,
 				18EB4FBB1C96C8ED00576393 /* main.m in Sources */,
-				18EB4FD81C96CC3900576393 /* NAWebImageUploader.m in Sources */,
-				18EB50031C97ED2300576393 /* NAUtilities.m in Sources */,
+				182B31C71CA3BF8A00DDE1CB /* NAUtilities.m in Sources */,
+				182B31C81CA3BF8A00DDE1CB /* NAWebImageUploader.m in Sources */,
+				182B31C91CA3BF8A00DDE1CB /* NAWebImageUploaderOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +360,7 @@
 				18EB4FCF1C96C8ED00576393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
